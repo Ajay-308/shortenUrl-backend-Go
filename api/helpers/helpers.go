@@ -21,8 +21,7 @@ func EnforceHttp(url string) string {
 	return url
 }
 
-// createClient creates and returns a Redis client.
-// Replace the options below with your actual Redis configuration.
+
 
 
 
