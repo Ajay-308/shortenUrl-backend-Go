@@ -16,7 +16,7 @@ func setupRoutes(app *fiber.App){
 	app.Get("/:url",routes.ResolveURL);
 	app.Post("/api/v1/shorten", routes.ShortenedURL);
 }
-// testing n8n ( this is extra)
+// testing n8n ( this is extra);
 
 func main(){
 	err := godotenv.Load()
